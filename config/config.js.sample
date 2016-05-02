@@ -32,9 +32,17 @@ var config = {
 				]
 			}
 		},
-		{
+		/*{
 			module: 'compliments',
 			position: 'lower_third'
+		},*/
+		{
+			module: 'trains',
+			position: 'lower_third',
+			config: {
+				home: 'BTH',
+				work: 'BRI'
+			}
 		},
 		{
 			module: 'currentweather',
